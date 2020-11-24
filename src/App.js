@@ -6,9 +6,9 @@ export default function App() {
     <div className={styles.app}>
       <div className={styles.buttons}>
         <div>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
+          <button>AC</button>
+          <button>+/-</button>
+          <button>%</button>
           <button>+</button>
         </div>
         <div>
@@ -28,6 +28,12 @@ export default function App() {
           <button>8</button>
           <button>9</button>
           <button>/</button>
+        </div>
+        <div>
+          <button>0</button>
+          <button>.</button>
+          <button>del</button>
+          <button>=</button>
         </div>
       </div>
     </div>
