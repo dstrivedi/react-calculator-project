@@ -4,6 +4,7 @@ import styles from "./style.module.css";
 export default function App() {
   return (
     <div className={styles.app}>
+      <div className={styles.input} />
       <div className={styles.buttons}>
         <div>
           <button>AC</button>
